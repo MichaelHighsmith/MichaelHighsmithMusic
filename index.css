@@ -1,0 +1,68 @@
+header {
+    background-color: rgb(37, 150, 179);
+    color: rgb(10, 18, 95);
+    padding: 30px;
+    text-align: center;
+  }
+
+  /* Style the h1 element within the header */
+  header h1 {
+    font-size: 50px;
+    margin: 0;
+  }
+
+  /* Style the intro text */
+  .intro {
+    font-size: 20px;
+    margin: 20px 0;
+    text-align: center;
+  }
+
+  /* Style the container for the demo thumbnails */
+  .demo-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px 0;
+  }
+
+  /* Style the demo thumbnails */
+  .demo-thumbnail {
+    width: 300px;
+    height: 200px;
+    background-color: rgb(78, 138, 153);
+    border: 1px solid #333;
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  /* Style the demo thumbnail overlays */
+  .demo-thumbnail .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(17, 103, 184, 0.5);
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s;
+    cursor: pointer;
+    opacity: 0;
+  }
+
+  /* Show the demo thumbnail overlays on hover */
+  .demo-thumbnail:hover .overlay {
+    opacity: 1;
+  }
+
+  .bg-image {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
