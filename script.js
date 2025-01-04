@@ -22,10 +22,11 @@ const noteMap = {
   };
   
   document.querySelectorAll('.key').forEach(key => {
-    key.addEventListener('mouseenter', () => {
-      const note = key.getAttribute('data-note');
-      const audio = new Audio(noteMap[note]);
-      audio.play();
+    key.addEventListener('click', () => {
+        const note = key.getAttribute('data-note');
+        const audio = new Audio(noteMap[note]);
+        audio.play()
+            .catch(error => console.error('Playback failed:', error));
     });
-  });
+});
   
