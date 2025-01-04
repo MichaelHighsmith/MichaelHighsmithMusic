@@ -1,6 +1,6 @@
 // Map notes to sound files or MIDI events
 const noteMap = {
-    "C": "https://github.com/MichaelHighsmith/MichaelHighsmithMusic/blob/main/Soaring.mp3",
+    "C": "https://github.com/MichaelHighsmith/MichaelHighsmithMusic/blob/main/Descension.wav",
     "C#": "https://github.com/MichaelHighsmith/MichaelHighsmithMusic/blob/main/Soaring.mp3",
     "D": "https://github.com/MichaelHighsmith/MichaelHighsmithMusic/blob/main/Soaring.mp3",
     "D#": "https://github.com/MichaelHighsmith/MichaelHighsmithMusic/blob/main/Soaring.mp3",
