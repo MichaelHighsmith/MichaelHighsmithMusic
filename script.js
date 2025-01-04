@@ -1,22 +1,23 @@
 // Map notes to sound files or MIDI events
 const noteMap = {
-    "C": "path/to/C.mp3",
-    "C#": "path/to/Csharp.mp3",
-    "D": "path/to/D.mp3",
-    "D#": "path/to/Dsharp.mp3",
-    "E": "path/to/E.mp3",
-    "F": "path/to/F.mp3",
-    "F#": "path/to/Fsharp.mp3",
-    "G": "path/to/G.mp3",
-    "G#": "path/to/Gsharp.mp3",
-    "A": "path/to/A.mp3",
-    "A#": "path/to/Asharp.mp3",
-    "B": "path/to/B.mp3",
-    "C2": "path/to/C2.mp3",
-    "C#2": "path/to/Csharp2.mp3",
-    "D2": "path/to/D2.mp3",
-    "D#2": "path/to/Dsharp2.mp3",
-    "E2": "path/to/E2.mp3",
+    "C": "https://github.com/MichaelHighsmith/MichaelHighsmithMusic/blob/main/Soaring.mp3",
+    "C#": "https://github.com/MichaelHighsmith/MichaelHighsmithMusic/blob/main/Soaring.mp3",
+    "D": "https://github.com/MichaelHighsmith/MichaelHighsmithMusic/blob/main/Soaring.mp3",
+    "D#": "https://github.com/MichaelHighsmith/MichaelHighsmithMusic/blob/main/Soaring.mp3",
+    "E": "https://github.com/MichaelHighsmith/MichaelHighsmithMusic/blob/main/Soaring.mp3",
+    "F": "https://github.com/MichaelHighsmith/MichaelHighsmithMusic/blob/main/Soaring.mp3",
+    "F#": "https://github.com/MichaelHighsmith/MichaelHighsmithMusic/blob/main/Soaring.mp3",
+    "G": "https://github.com/MichaelHighsmith/MichaelHighsmithMusic/blob/main/ComingUpForAir.mp3",
+    "G#": "https://github.com/MichaelHighsmith/MichaelHighsmithMusic/blob/main/Soaring.mp3",
+    "A": "https://github.com/MichaelHighsmith/MichaelHighsmithMusic/blob/main/Soaring.mp3",
+    "A#": "https://github.com/MichaelHighsmith/MichaelHighsmithMusic/blob/main/Soaring.mp3",
+    "B": "https://github.com/MichaelHighsmith/MichaelHighsmithMusic/blob/main/Soaring.mp3",
+    "C2": "https://github.com/MichaelHighsmith/MichaelHighsmithMusic/blob/main/Soaring.mp3",
+    "C#2": "https://github.com/MichaelHighsmith/MichaelHighsmithMusic/blob/main/Soaring.mp3",
+    "D2": "https://github.com/MichaelHighsmith/MichaelHighsmithMusic/blob/main/Soaring.mp3",
+    "D#2": "https://github.com/MichaelHighsmith/MichaelHighsmithMusic/blob/main/Soaring.mp3",
+    "E2": "https://github.com/MichaelHighsmith/MichaelHighsmithMusic/blob/main/Soaring.mp3"
+
     // Add paths for more notes as needed
   };
   
